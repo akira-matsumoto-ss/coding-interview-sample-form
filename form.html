@@ -27,7 +27,8 @@
     <li>出力：[2, 1, 1]</li>
   </ul>
   <h2>回答フォーム</h2>
-  <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScgh8mIKVWH4xb8cLOSi5enDFWP1ChQr_zsT51UOMTgpZG5FQ/formResponse">
+  <form id="form" target="dummyFrame" onsubmit="redirectToThanks()"
+  action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScgh8mIKVWH4xb8cLOSi5enDFWP1ChQr_zsT51UOMTgpZG5FQ/formResponse">
     <label for="lastName">姓</label>
     <input type="text" id="lastName" name="entry.1475141539" required>
     <label for="firstName">名</label>
@@ -41,7 +42,13 @@ end
 </textarea><br>
     <input type="submit" value="回答を終了して送信する">
   </form>
+  <iframe name="dummyFrame" style="display:none;"></iframe>
   <script src="prism.js"></script>
   <script src="prism-live.js"></script>
+  <script>
+    function redirectToThanks(){
+      window.location.href = 'thanks.html';
+    }
+  </script>
 </body>
 </html>
