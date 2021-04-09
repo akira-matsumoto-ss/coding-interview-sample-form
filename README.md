@@ -1,3 +1,4 @@
 # coding-interview-sample-form
 
-[Form](https://akira-matsumoto-ss.github.io/coding-interview-sample-form/index.html)
+[Form1](https://akira-matsumoto-ss.github.io/coding-interview-sample-form/form1.html)
+[Form2](https://akira-matsumoto-ss.github.io/coding-interview-sample-form/form2.html)
